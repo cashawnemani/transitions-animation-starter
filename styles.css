@@ -500,13 +500,13 @@ details[open] summary{
     animation: slide-in 3s ease-in-out 3 alternate;
 }
 
-@keyframes slide-in {
+@keyframes slide-in{
     from {
         transform: translate(0, 0);
     }
 
     to {
-       transform: translate(50vw 0);
+       transform: translate(50vw, 0);
     }
 }
 
@@ -612,8 +612,9 @@ details[open] summary{
     transition: transform 500ms;
 }
 
-/* TO DO: Add a transformation here so that this image will spin in a complete circle on hover */
+
 #link4:hover svg{
+    transform: rotate(360deg);
     
 }
 
